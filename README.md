@@ -5,6 +5,8 @@
 
 Originally created by Jon Schlinkert. I do not take any credit for their work.
 
+This fork includes bug fixes, especially with arrays and `undefined` or `null` values.
+
 ## Installation
 
 Install with [NPM](https://www.npmjs.com/).
@@ -16,6 +18,6 @@ $ npm i QSmally/defaults-deep
 
 ```js
 const defaults = require("defaults-deep");
-defaults({a: {one: 'one'}}, {a: {two: 'two'}});
-//=> {a: {one: 'one', two: 'two'}};
+defaults({a: {one: "one"}}, {a: {two: "two"}});
+//=> {a: {one: "one", two: "two"}};
 ```
